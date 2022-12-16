@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* background-image: url(./ch.jpeg); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+
+.navbar ul {
+    display: flex;
+    justify-content: end;
+
+}
+
+.navbar ul li {
+    margin-top: 20px;
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+    color: #534c4c;
+    margin-right: 30px;
+    margin-left: 20px;
+
+}
+
+
+
+img {
+    /* margin: 10px; */
+    /* padding: px; */
+    width: 90px;
+    height: 80px;
+    margin-right: 20px;
+
+}
+
+
+/* .............................................................................. */
+
+
+.body {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.body ul {
+    display: flex;
+    justify-content: end;
+}
+
+form {
+
+     margin-left:50px;
+     margin-top:50px;
+    padding: 20px;
+    border: 1px solid gainsboro;
+    box-shadow: 3px 3px 5px gainsboro;
+    height: 500px;
+
+}
+
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 5px 30px 7px 30px;
+}
+
+
+input {
+    width: 500px;
+    border: ghostwhite;
+    box-shadow: 2px 2px 5px gainsboro;
+    height: 35px;
+    margin: 5px 30px 7px 30px;
+
+}
+
+
+
+
+h2 {
+
+    display: inline;
+    background: linear-gradient(90deg, red, #cb997e, #534c4c) 0 0.96em/100% 2px repeat-x;
+
+
+}
+
+button{
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5px;
+   
+
+}

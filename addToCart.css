@@ -1,0 +1,90 @@
+#myDivAddToCart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5%;
+}
+img{
+    height: 10rem !important;
+}
+
+/* nav */
+#nameUser {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nameUser:hover {
+    background-color: #111;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+/* --------------------- */
+
+.btnControl{
+    cursor: pointer;
+}
+.underCart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(190, 190, 190);
+    /* margin: 20px; */
+}
+.underCart p,.underCart i{
+    margin: auto 0;
+}
+.myCounter{
+    margin:auto 0;
+}
+.myResult p{
+    margin: auto 0;
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(75, 75, 75);
+}
+.myResult{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border: 2px solid green;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.totalDisplayNone{
+    display: none !important;
+}
+.totalDisplayBlock{
+    display: block !important;
+}
+
+.underCardTotalPrice{
+    font-size: small;
+    font-weight: bold;
+    color: rgb(75, 75, 75);
+    padding: 10px;
+    background-color: aliceblue;
+}

@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+ 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#nameUser{
+    display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+#nameUser:hover{
+  background-color: #111;
+}
+li a:hover {
+  background-color: #111;
+}
+
+/* ///////////////////////////////// */
+
+
+
+.column {
+  float: left;
+  width: 500px;
+  padding: 10px;
+  /* height: 100%; Should be removed. Only for demonstration */
+  position: absolute;
+  margin: 10px;
+}
+
+/* Clear floats after the columns */
+.row {
+  width: 100%;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* ////////////////////////////////////// */
+
+.card {
+
+
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-bottom: 20px;
+  margin-top: 40px;
+
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+.body {
+  width: 70%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column: 5px;
+  /* margin-left: 100px; */
+  margin: 0 360px;
+
+}
+
+
+
+
+
+
+input {
+  width: 220px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* button{
+        width: 80px;
+        padding: 5px;
+        background-color: seagreen;
+        border: 1px solid seagreen;
+        color: white;
+        cursor: pointer;
+      
+      } */
+
+.column p {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}

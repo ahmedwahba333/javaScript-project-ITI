@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reg.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>Store</li>
+            <li>Contact Us</li>
+            <li><a href="./log2.html"> Login</a></li>
+
+        </ul>
+
+    </nav>
+
+
+
+
+    <div class="body">
+        <ul>
+            <li>
+                <form action="#">
+
+                    <h2>Registration</h2>
+                    <br>
+                    <br>
+                    <br>
+
+                    <label for="fname">name:</label>
+                    <br>
+                    <input type="text" id="fname" placeholder="Enter Your Name" onblur="NameValid()">
+                    <small id="err" style="color: red; display: none;">At least 5 char</small>
+
+                    <br>
+                    <label for="email">email:</label>
+                    <br>
+                    <input type="email" id="email" placeholder="Enter Your Email" onblur="ValidEmail()">
+                    <small id="err2" style="color: red; display: none;">Email Not valid</small>
+
+                    <br>
+                    <label for="pass">password:</label>
+                    <br>
+                    <input type="password" id="pass" placeholder="Enter Your Password">
+                    <br>
+                    <input type="password" id="confirm password" placeholder="confirm password" onblur="ValidPass()"><br>
+
+                    <small id="err3" style="color: red; display: none;">Please Enter The Same Password</small>
+                    <small id="err5" style="color: red; display: none;">At Least 5 char</small>
+
+                    <br>
+                   
+                    <button onclick="SetInfo(event)">Submit</button>
+
+
+                
+
+                </form>
+
+            </li>
+
+        </ul>
+    </div>
+
+    <br>
+    <br>
+
+</body>
+
+<script src="./reg.js"></script>
+
+</html>

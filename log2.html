@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reg.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>Store</li>
+            <li>Contact Us</li>
+            <li><a href="./reg.html">Registration</a></li>
+
+        </ul>
+
+    </nav>
+
+
+
+
+    <div class="body">
+        <ul>
+            <li>
+                <form action="#">
+
+                    <h2>Login</h2>
+                    <br>
+                    <br>
+                    <br>
+
+                  
+
+            
+                    <label for="email">email:</label>
+                    <br>
+                    <input type="email" id="email" placeholder="Enter Your Email" onblur="ValidEmail()">
+                    <small id="err2" style="color: red; display: none;">Email Not valid</small>
+
+                    <br>
+                    <label for="pass">password:</label>
+                    <br>
+                    <input type="password" id="pass" placeholder="Enter Your Password">
+                    <br>
+                    <br>
+                   
+                    <button onclick="GetInfo(event)">Login</button>
+
+
+                
+
+                </form>
+
+            </li>
+
+        </ul>
+    </div>
+
+    <br>
+    <br>
+
+</body>
+
+<script src="./log2.js"></script>
+
+</html>

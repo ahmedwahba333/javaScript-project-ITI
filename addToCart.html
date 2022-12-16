@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./addToCart.css" />
+  <link rel="stylesheet" href="./assets/all.min.css">
+  <title>addToCart</title>
+</head>
+
+<body>
+  <ul style="display: flex; align-items: center; justify-content: space-between">
+    <div>
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./log2.html">Login</a></li>
+    <li><a href="./addToCart.html">my Cart</a></li>
+    <li><a href="./reg.html">Registration</a></li>
+    <li id="nameUser"></li>
+    </div>
+    <li>
+      <a href="./addToCart.html">
+        <span class="badge bg-success" id="myCart"></span>
+        <i class="fa-solid fa-cart-shopping" style="color: white"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="p-3">
+    <div class="container">
+      <div id="myDivAddToCart"></div>
+    </div>
+    <div class="container container-fluid myResult">
+      <p>Total Price = <span id="myTotalPrice"></span></p>
+      <button class="btn btn-success" type="submit">Buy Now</button>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <script src="./addToCart.js"></script>
+</body>
+
+</html>
